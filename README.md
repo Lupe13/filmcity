@@ -17,6 +17,8 @@ https://github.com/Lupe13/filmcity.git
 - Zoom
 - GitHub
 - Notion
+- JAVA
+- JSON
 
 ## REQUEST
 
