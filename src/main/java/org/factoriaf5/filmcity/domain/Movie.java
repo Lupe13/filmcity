@@ -15,6 +15,12 @@ public class Movie {
     private int year;
     @Lob
     private String synopsis;
+    @Column (name = "BOOKED")
+    private boolean booked;
+    @Column (name= "RENTER")
+    private String renter;
+    @Column (name="RATING")
+    private int rating;
 
     public Movie() { }
 
@@ -52,5 +58,23 @@ public class Movie {
 
     public String getSynopsis() {
         return synopsis;
+    }
+
+    public String getFirstName() {
+        return "FirstName";
+    }
+
+    public void setBooked(boolean b) {
+    }
+
+    public void setRenter(String renter) {
+    }
+
+    public int getScore() {
+        return 0;
+    }
+
+
+    public void setScore(int newScore) {
     }
 }
