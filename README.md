@@ -1,4 +1,4 @@
-# FilmCity
+
 # FILMCITY BACKEND
 
 FilmCity is a REST API based on the Spring Boot Java framework. As part of the FilmCity Back team we have done the backend code of the application where we have implemented different methods such as GET, PUT or DELETE.
